@@ -1,0 +1,1 @@
+web: gunicorn mvc-moringa.wsgi --log-file -
