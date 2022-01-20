@@ -46,7 +46,7 @@
 		<br>
 		<div class="box-element hidden" id="payment-info">
 			<small>Paypal Options</small>
-			<!--<button id="make-payment">Make payment</button>-->
+			
 			<div id="paypal-button-container"></div>
 		</div>
 
@@ -83,8 +83,6 @@
 <script
 	src="https://www.paypal.com/sdk/js?client-id=AW49R_9yJ-rNWUkAv9ktSnFM0pDE2wb3YQFqqOhax7GL_mqC5AQvAgZVT1L17cH_QsbpSpBb0_e1GvjV&currency=USD"></script>
 
-<!-- <script
-	src="https://www.paypal.com/sdk/js?client-id=AW49R_9yJ-rNWUkAv9ktSnFM0pDE2wb3YQFqqOhax7GL_mqC5AQvAgZVT1L17cH_QsbpSpBb0_e1GvjV&currency=USD&disable-funding=credit"></script> -->
 
 
 	
@@ -147,11 +145,7 @@
 		document.getElementById('payment-info').classList.remove("hidden");
 	})
 
-	/*
-	document.getElementById('make-payment').addEventListener('click', function(e){
-		submitFormData()
-	})
-	*/
+	
 
 	function submitFormData() {
 		console.log('Payment button clicked')
