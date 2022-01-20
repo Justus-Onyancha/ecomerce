@@ -1,1 +1,1 @@
-web: gunicorn mvc-moringa.wsgi --log-file -
+web: gunicorn ecommerce.wsgi --log-file -
